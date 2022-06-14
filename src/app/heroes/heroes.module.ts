@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AgregarComponent } from './pages/agregar/agregar.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
+import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
@@ -21,6 +22,7 @@ import { ImagenPipe } from './pipes/imagen.pipe';
   declarations: [
     AgregarComponent,
     BuscarComponent,
+    ConfirmarComponent,
     HeroeComponent,
     HomeComponent,
     ListadoComponent,
